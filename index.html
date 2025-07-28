@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume - Sahil Pawar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="artwork"></canvas>
+    <div class="resume-wrapper">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Profile Photo" class="profile-pic">
+                <h1>Sahil Pawar</h1>
+                <h2>B.E. Information Technology Student</h2>
+            </div>
+            <div class="contact-info">
+            <h3>Contact</h3>
+            <ul>
+            <li><span>Email:</span> sahil007pawar@gmail.com</li>
+            <li><span>Address:</span> Satara, Maharashtra</li>
+            <li><span>Date of Birth:</span> 22-06-2004</li>
+            </ul>
+            <div class="social-links">
+            <a href="https://www.instagram.com/sahil_pawar.1717?igsh=MWhkYzM5emh6MHE4cg%3D%3D&utm_source=qr" target="_blank" class="social-icon" title="Instagram">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="#fff"/>
+            <rect x="6" y="6" width="20" height="20" rx="6" fill="#E1306C"/>
+            <circle cx="16" cy="16" r="6" fill="#fff"/>
+            <circle cx="16" cy="16" r="4" fill="#E1306C"/>
+            <circle cx="22.2" cy="9.8" r="1.2" fill="#fff"/>
+            </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sahil-pawar-5097192a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-icon" title="LinkedIn">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="#fff"/>
+            <rect x="6" y="6" width="20" height="20" rx="6" fill="#0077B5"/>
+            <rect x="11" y="14" width="2" height="7" rx="1" fill="#fff"/>
+            <rect x="15" y="17" width="2" height="4" rx="1" fill="#fff"/>
+            <rect x="19" y="13" width="2" height="8" rx="1" fill="#fff"/>
+            <circle cx="12" cy="11" r="1" fill="#fff"/>
+            </svg>
+            </a>
+            </div>
+            </div>
+            <div class="chat-ai-card sidebar-chat-ai">
+                <h3 class="chat-ai-title">Chat AI</h3>
+                <hr class="chat-ai-divider">
+                <div class="chat-ai-content">
+                    <p>
+                        <b>Talk to my AI assistant!</b><br>
+                        Ask anything about my skills, projects, or any topic. Start chatting below:
+                    </p>
+                </div>
+                <div class="ai-chat-box">
+                    <div class="ai-chat-history" id="ai-chat-history"></div>
+                    <form class="ai-chat-form" id="ai-chat-form" autocomplete="off">
+                        <input type="text" id="ai-chat-input" class="ai-chat-input" placeholder="Type your message..." required />
+                        <button type="submit" class="ai-chat-send">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="sidebar-art"></div>
+        </aside>
+        <main class="main-content">
+            <section class="card about highlight-about">
+            <h3><span class="about-icon">&#128187;</span> About Me</h3>
+            <p>Hello! I'm <b>Sahil Pawar</b>, an enthusiastic and creative Information Technology student at Zeal College of Engineering and Research, Pune. I have a strong passion for web development, UI/UX design, and building innovative digital solutions.<br><br>
+            My journey in tech began with curiosity and has grown into a deep commitment to mastering modern web technologies. I thrive on solving real-world problems, collaborating in teams, and continuously learning new skills. My strengths include:
+            <ul class="about-list">
+            <li>Strong foundation in HTML, CSS, JavaScript, and modern frameworks</li>
+            <li>Quick learner and adaptable to new technologies</li>
+            <li>Excellent communication and teamwork abilities</li>
+            <li>Creative approach to design and problem-solving</li>
+            </ul>
+            <br>
+            I aspire to contribute to impactful projects and grow as a full stack developer. Let's connect and create something amazing together!
+            </p>
+            </section>
+            <section class="card education">
+            <h3>Education</h3>
+            <div class="school zeal-school">
+            <img src="images/logo.png" alt="Zeal College Logo" class="college-logo">
+            <div class="school-details">
+            <h4>B.E. in Information Technology</h4>
+            <span class="company">Zeal College of Engineering and Research, Pune | 2022-2025</span>
+            <span class="company">Percentage: Pursuing</span>
+            </div>
+            </div>
+            <div class="school rajendra-school">
+            <img src="images/rajendra_logo.svg" alt="Rajendra Junior College Logo" class="college-logo">
+            <div class="school-details">
+            <h4>HSC (12th)</h4>
+            <span class="company">Rajendra Junior College, Khandala | 2020-2021</span>
+            <span class="company">Percentage: 56%</span>
+            </div>
+            </div>
+            <div class="school rajendra-vidhalay-school">
+            <img src="images/rajendra_vidhalay_logo.svg" alt="Rajendra Vidhalay Logo" class="college-logo">
+            <div class="school-details">
+            <h4>SSC (10th)</h4>
+            <span class="company">Rajendra Vidhalay, Khandala | 2019-2020</span>
+            <span class="company">Percentage: 77%</span>
+            </div>
+            </div>
+            </section>
+            <section class="card skills">
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-icon"> HTML</li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-icon"> CSS</li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap" class="skill-icon"> Bootstrap</li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon"> JavaScript</li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="JQuery" class="skill-icon"> JQuery</li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="skill-icon"> React</li>
+                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon"> Java</li>
+                </ul>
+            </section>
+            <section class="card chat-ai-card">
+    <h3 class="chat-ai-title">Chat AI</h3>
+    <hr class="chat-ai-divider">
+    <div class="chat-ai-content">
+        <p>
+            <b>Talk to my AI assistant!</b><br>
+            Have questions about my skills, projects, or want to chat? Click the chat bubble in the bottom right corner to start a conversation with my AI assistant. It's available 24/7 to help you explore my portfolio and answer your queries.
+        </p>
+    </div>
+</section>
+
+<section class="card projects">
+            <h3>Projects</h3>
+            <div class="project"><img src="images/project_chat.svg" alt="Chat App Logo" class="project-logo">
+            <div class="project-details">
+            <h4>Chat Application</h4>
+            <p>A real-time chat app for instant messaging between users.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            <div class="project"><img src="images/project_ecommerce.svg" alt="E-Commerce Logo" class="project-logo">
+            <div class="project-details">
+            <h4>E-Commerce Product Catalog</h4>
+            <p>Browse, search, and add products to your cart in this simple e-commerce demo.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            <div class="project"><img src="images/project_library.svg" alt="Library Logo" class="project-logo">
+            <div class="project-details">
+            <h4>Library Management System</h4>
+            <p>Manage books, authors, and lending records with this simple library system.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            <div class="project"><img src="images/project_portfolio.svg" alt="Portfolio Logo" class="project-logo">
+            <div class="project-details">
+            <h4>Online Portfolio Website</h4>
+            <p>A personal portfolio site to showcase your skills, projects, and contact info.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            <div class="project"><img src="images/project_expense.svg" alt="Expense Tracker Logo" class="project-logo">
+            <div class="project-details">
+            <h4>Personal Expense Tracker</h4>
+            <p>Track your daily expenses and manage your budget efficiently.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            <div class="project"><img src="images/project_attendance.svg" alt="Attendance Logo" class="project-logo">
+            <div class="project-details">
+            <h4>Student Attendance Management System</h4>
+            <p>Easily mark, track, and reset student attendance records.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            <div class="project"><img src="images/project_weather.svg" alt="Weather App Logo" class="project-logo">
+            <div class="project-details">
+            <h4>Weather Dashboard App</h4>
+            <p>Get real-time weather updates for any city with this dashboard app.<br><span class="company">HTML, CSS, JavaScript</span></p>
+            </div>
+            </div>
+            </section>
+        <section class="card contact-card">
+    <h3 class="contact-title">Contact Me</h3>
+    <hr class="contact-divider">
+    <div class="contact-details">
+        <div class="contact-info-block">
+            <div><b>Email:</b> <a href="mailto:sahil007pawar@gmail.com">sahil007pawar@gmail.com</a></div>
+            <div><b>Address:</b> Satara, Maharashtra</div>
+        </div>
+        <div class="contact-social-block">
+            <a href="https://www.instagram.com/sahil_pawar.1717?igsh=MWhkYzM5emh6MHE4cg%3D%3D&utm_source=qr" target="_blank" class="social-icon" title="Instagram">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="8" fill="#fff"/>
+                    <rect x="6" y="6" width="20" height="20" rx="6" fill="#E1306C"/>
+                    <circle cx="16" cy="16" r="6" fill="#fff"/>
+                    <circle cx="16" cy="16" r="4" fill="#E1306C"/>
+                    <circle cx="22.2" cy="9.8" r="1.2" fill="#fff"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sahil-pawar-5097192a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" class="social-icon" title="LinkedIn">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="8" fill="#fff"/>
+                    <rect x="6" y="6" width="20" height="20" rx="6" fill="#0077B5"/>
+                    <rect x="11" y="14" width="2" height="7" rx="1" fill="#fff"/>
+                    <rect x="15" y="17" width="2" height="4" rx="1" fill="#fff"/>
+                    <rect x="19" y="13" width="2" height="8" rx="1" fill="#fff"/>
+                    <circle cx="12" cy="11" r="1" fill="#fff"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+</main>
+    </div>
+    <script src="script.js"></script>
+    <!-- Chatbase AI Chat Widget -->
+    <script>
+      window.chatbaseConfig = {
+        chatbotId: "Qn8vQw7vQw7vQw7vQw7vQw7vQw7vQw7v", // Demo ID, replace with your own for customization
+      };
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
+</body>
+</html>
