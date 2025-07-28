@@ -541,6 +541,29 @@ h1, h2, h3, h4 {
     .sidebar h2 {
         font-size: 0.9rem;
     }
+    .contact-card {
+        padding: 12px 4px 10px 4px;
+    }
+    .contact-details {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .contact-info-block {
+        font-size: 0.98em;
+        text-align: center;
+        margin-bottom: 0.5em;
+        line-height: 1.5;
+    }
+    .contact-social-block {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .contact-title {
+        font-size: 1.05rem;
+        text-align: center;
+    }
 }
 
 .contact-card {
